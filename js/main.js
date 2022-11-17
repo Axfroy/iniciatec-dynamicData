@@ -1,6 +1,6 @@
-  function setCards() {
+  function createCards() {
     let card = ``;
-    const settingCard = document.getElementById("cards");
+    const setCard = document.getElementById("cards");
     for (let i=0; i < data.length; i++) {
         card += `
         <div class="col">
@@ -33,8 +33,8 @@
         </div>
         `;
     }  
-    settingCard.innerHTML = card;
+    setCard.innerHTML = card;
 }
       
-setCards(); 
+createCards(); 
 
