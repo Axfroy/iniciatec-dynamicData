@@ -1,0 +1,10 @@
+.card-img{
+    object-fit: cover;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .card{
+        height: 100% !important;
+    }
+}
